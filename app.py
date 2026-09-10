@@ -108,7 +108,7 @@ def page_setup() -> None:
                 "Student ID", value=st.session_state.student_id, placeholder="e.g. S001"
             )
             student_name = st.text_input(
-                "Student Name", value=st.session_state.student_name, placeholder="e.g. Asha Rao"
+                "Student Name", value=st.session_state.student_name, placeholder="e.g. Sandesh Birannavar"
             )
 
         with right:

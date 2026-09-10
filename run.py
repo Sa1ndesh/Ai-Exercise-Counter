@@ -6,8 +6,8 @@ process the sample clips in videos/.
 
 Examples
 --------
-    python run.py --student-id S001 --name "Asha Rao" --exercise squat --reps 5
-    python run.py --student-id S002 --name "Dev Patel" --exercise pushup \
+    python run.py --student-id S001 --name "Sandesh Birannavar" --exercise squat --reps 5
+    python run.py --student-id S002 --name "Sandesh Birannavar" --exercise pushup \
         --reps 5 --source videos/count_pushup.mp4
 """
 

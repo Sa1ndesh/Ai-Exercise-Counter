@@ -76,7 +76,7 @@ def build_pdf_bytes(record: SessionRecord) -> bytes:
         buffer,
         pagesize=A4,
         title=f"Exercise Report - {record.student_name}",
-        author="Student Exercise Monitoring System",
+        author="Sandesh Birannavar",
         leftMargin=20 * mm,
         rightMargin=20 * mm,
         topMargin=18 * mm,
