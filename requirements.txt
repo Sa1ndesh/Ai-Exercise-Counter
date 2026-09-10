@@ -4,4 +4,3 @@ opencv-python-headless==4.10.0.84
 numpy==1.26.4
 pandas==2.2.3
 reportlab==4.1.0
-
