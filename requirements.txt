@@ -1,12 +1,6 @@
-# AI-Based Student Exercise Monitoring System
-#
-# mediapipe is pinned deliberately: this project uses the legacy
-# mediapipe.solutions.pose API, which was removed in mediapipe 0.10.30.
-# Do not upgrade past 0.10.21 without porting pose_engine.py to the Tasks API.
-mediapipe>=0.10.9,<0.10.30
-
-opencv-python>=4.7
-numpy>=1.24,<2.0
-pandas>=2.0
-streamlit>=1.30
-reportlab>=4.0
+streamlit==1.49.1
+mediapipe==0.10.32
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+pandas==2.0.1
+reportlab==4.1.0
