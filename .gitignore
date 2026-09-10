@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Data & generated output
+data/sessions.db
+reports/*.pdf
+reports/*.csv
+static/*.mp4
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
