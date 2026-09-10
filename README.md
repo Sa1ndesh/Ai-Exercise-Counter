@@ -4,9 +4,6 @@ Counts a student's push-ups and squats from a webcam or video file using
 MediaPipe Pose, validates the form of every repetition, stores each session in
 SQLite and produces a PDF/CSV report.
 
-Built on top of [m-soldo/mediapipe_exercise](https://github.com/m-soldo/mediapipe_exercise),
-which provided the pose-angle repetition counting this system extends.
-
 ## What it does
 
 1. Teacher enters Student ID, name, exercise and a repetition target
